@@ -40,13 +40,13 @@
     "bezier": "^0.1.0",
     "canvas-fontstyle": "^1.0.1",
     "extrude-polyline": "^1.0.6",
-    "font-scanner": "^0.1.1",
-    "freetype2": "^0.3.1",
+    "font-scanner": "^0.1.2",
+    "freetype2": "^1.0.6",
     "gaussian-convolution-kernel": "^1.0.0",
     "keysym": "0.0.6",
     "parse-color": "^1.0.0",
     "pnltri": "^2.1.1",
-    "weak-napi": "^1.0.2",
+    "weak-napi": "^2.0.2",
     "x11": "^2.3.0"
   },
   "scripts": {

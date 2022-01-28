@@ -1,6 +1,13 @@
 ntk
 ===
 
+This is a fork of [sidorares/ntk](https://github.com/sidorares/ntk). The
+original hasn't been updated since 2018 and there is no response to
+[issue #38: Doesn't install](https://github.com/sidorares/ntk/issues/38) ,
+raised Aug 2021.
+
+This clone fixes the install by updating dependencies.
+
 node.js desktop UI toolkit
 
 A set of wrappers around low level [node-x11](https://github.com/sidorares/node-x11) module to simplify X Window UI progamming - windows creation, event handling, 2d/3d graphics etc.
