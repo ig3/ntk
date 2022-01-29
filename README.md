@@ -56,13 +56,14 @@ ntk.createClient( (err, app) => {
 
 ```js
 var ntk = require('ntk');
-var Canvas = require('canvas');
+var { createCanvas, loadImage } = require('canvas');
 
-var canvas = new Canvas(800, 800);
+var canvas = createCanvas(800, 800);
 var canvasCtx = canvas.getContext('2d');
 
 function drawSomething(ctx) {
   // ...
+  console.log('draw something');
 }
 
 ntk.createClient( (err, app) => {
